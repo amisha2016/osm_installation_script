@@ -1,5 +1,6 @@
-
-
+<<"COMMENT"
+OSM Configuration Script
+COMMENT
  sed -i 's|"file": "http://data.openstreetmapdata.com/simplified-land-polygons-complete-3857.zip",|"file": "/usr/local/share/maps/style/osm-bright-master/shp/simplified-land-polygons-complete-3857/simplified_land_polygons.shp",\n"type": "shape",|' /usr/local/share/maps/style/osm-bright-master/osm-bright/osm-bright.osm2pgsql.mml
 
 sed -i 's|"file": "http://data.openstreetmapdata.com/land-polygons-split-3857.zip"|"file": "/usr/local/share/maps/style/osm-bright-master/shp/land-polygons-split-3857/land_polygons.shp"|' /usr/local/share/maps/style/osm-bright-master/osm-bright/osm-bright.osm2pgsql.mml
@@ -18,16 +19,11 @@ sed -i 's|"osm"|"gis"|' /usr/local/share/maps/style/osm-bright-master/configure.
 cd /usr/local/share/maps/style/osm-bright-master
 ./make.py
 
-<<"COMMENT"
+
 cd ../OSMBright/
 sudo chmod 777 OSMBright.xml
 carto project.mml > OSMBright.xml
-
-
-
 cd /usr/local/etc/
-
-
 
 cat <<EOF >renderd.conf
 [renderd]
@@ -87,10 +83,7 @@ sed -i 's|autovacuum =.*|autovacuum = off|' postgresql.conf
 
 sed -i 's|#kernel.domainname = example.com|#kernel.domainname = example.com\n# Increase kernel shared memory segments - needed for large databases\nkernel.shmmax=268435456|' /etc/sysctl.conf
 
-#<<"COMMENT"
 
 sudo mkdir /usr/local/share/maps/planet
 sudo chown amisha /usr/local/share/maps/planet
 cd /usr/local/share/maps/planet 
-
-COMMENT
