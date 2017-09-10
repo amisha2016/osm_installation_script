@@ -1,8 +1,8 @@
 #!/bin/bash
 source ./install.conf
-
+<<"COMMENT"
 OSM Installation Script
-
+COMMENT
 
 apt -y install libboost-all-dev subversion git-core tar unzip wget bzip2 build-essential autoconf libtool libxml2-dev libgeos-dev libgeos++-dev libpq-dev libbz2-dev libproj-dev munin-node munin libprotobuf-c0-dev protobuf-c-compiler libfreetype6-dev libpng12-dev libtiff5-dev libicu-dev libgdal-dev libcairo-dev libcairomm-1.0-dev apache2 apache2-dev libagg-dev liblua5.2-dev ttf-unifont lua5.1 liblua5.1-dev libgeotiff-epsg node-carto
 
@@ -30,8 +30,10 @@ ALTER TABLE spatial_ref_sys OWNER TO :user_name;
 \q
 EOF
 
+<<"COMMENT"
 useradd -m $postgres_user
 echo "$postgres_user:$postgres_user"|chpasswd
+COMMENT
 
 mkdir ~/src
 cd ~/src
@@ -77,7 +79,7 @@ EOF
 
 cd -
 cd openstreetmap-carto
-sudo -u amisha osm2pgsql --slim -d gis -C 3600 --hstore -S openstreetmap-carto.style ../Punjab.pbf
+sudo -u $postgres_user osm2pgsql --slim -d gis -C 3600 --hstore -S openstreetmap-carto.style ../Punjab.pbf
 
 python scripts/get-shapefiles.py
 
