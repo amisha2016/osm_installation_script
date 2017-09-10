@@ -87,6 +87,10 @@ touch style.xml
 chmod 777 style.xml
 
 carto project.mml > style.xml
+cd ..
+chmod 777 conf_osm_16.04.sh 
+source ./conf_osm_16.04.sh
+
 exit
 
 
