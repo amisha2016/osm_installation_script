@@ -1,3 +1,5 @@
+#!/bin/bash
+source ./install.conf
 <<"COMMENT"
 OSM Configuration Script
 COMMENT
@@ -19,7 +21,7 @@ font_dir_recurse=1
 [default]
 URI=/osm_tiles/
 TILEDIR=/var/lib/mod_tile
-XML=/home/amisha/gitt/osm_installation_script/openstreetmap-carto/style.xml
+XML=$xml_style_path
 HOST=localhost 
 TILESIZE=256
 MAXZOOM=20
@@ -32,16 +34,15 @@ chmod a+x /etc/init.d/renderd
 
 cd /etc/init.d
 
-sed -i 's|DAEMON=*|DAEMON=/usr/local/bin/$NAME|' renderd
-sed -i 's|DAEMON_ARGS=*|DAEMON_ARGS="-c /usr/local/etc/renderd.conf"|' renderd
-sed -i 's|RUNASUSER=*|RUNASUSER=amisha|' renderd
+sed -i 's|DAEMON=.*|DAEMON=/usr/local/bin/$NAME|' renderd
+sed -i 's|DAEMON_ARGS=.*|DAEMON_ARGS="-c /usr/local/etc/renderd.conf"|' renderd
+sed -i 's|RUNASUSER=.*|RUNASUSER='$postgres_user'|' renderd
 
 mkdir -p /var/lib/mod_tile
-chown amisha:amisha /var/lib/mod_tile
+chown $postgres_user:$postgres_user /var/lib/mod_tile
 
 mkdir /var/run/renderd
- chown amisha /var/run/renderd
-COMMENT
+ chown $postgres_user /var/run/renderd
 systemctl daemon-reload
 systemctl start renderd
 systemctl enable renderd

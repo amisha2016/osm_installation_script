@@ -30,6 +30,8 @@ ALTER TABLE spatial_ref_sys OWNER TO :user_name;
 \q
 EOF
 
+useradd -m $postgres_user
+echo "$postgres_user:$postgres_user"|chpasswd
 
 mkdir ~/src
 cd ~/src
@@ -58,6 +60,9 @@ ldconfig
 
 git clone https://github.com/gravitystorm/openstreetmap-carto.git
 wget -c $Raw_Database_URL
+
+exit
+
 fallocate -l 2G /swapfile
 chmod 600 /swapfile
 mkswap /swapfile
@@ -69,11 +74,13 @@ cd /etc/ssh/
 cat <<EOF >ssh_config
 ServerAliveInterval 60
 EOF
-cd ~/gitt/osm_installation_script/openstreetmap-carto
+
+cd -
+cd openstreetmap-carto
 sudo -u amisha osm2pgsql --slim -d gis -C 3600 --hstore -S openstreetmap-carto.style ../Punjab.pbf
 
 python scripts/get-shapefiles.py
-cd ~/gitt/osm_installation_script/openstreetmap-carto/
+
 touch style.xml
 chmod 777 style.xml
 
