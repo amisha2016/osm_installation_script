@@ -89,8 +89,10 @@ chmod 777 style.xml
 carto project.mml > style.xml
 cd ..
 chmod 777 conf_osm_16.04.sh 
+chod 777 web_map.sh
 source ./conf_osm_16.04.sh
-
+source ./web_map.sh
 exit
+
 
 
