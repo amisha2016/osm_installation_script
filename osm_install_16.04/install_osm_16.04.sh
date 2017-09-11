@@ -17,7 +17,7 @@ apt -y install libmapnik-dev libmapnik3.0 mapnik-utils mapnik-vector-tile python
 apt -y install cmake
 apt -y install python-pip
 pip install mapnik
-apt -y install postgresql postgresql-contrib postgis postgresql-9.4-postgis-2.1
+apt -y install postgresql postgresql-contrib postgis postgresql-9.5-postgis-2.2
 apt -y install npm nodejs-legacy
 npm install -g carto
 
@@ -30,10 +30,10 @@ ALTER TABLE spatial_ref_sys OWNER TO :user_name;
 \q
 EOF
 
-<<"COMMENT"
+
 useradd -m $postgres_user
 echo "$postgres_user:$postgres_user"|chpasswd
-COMMENT
+
 
 mkdir ~/src
 cd ~/src
@@ -42,10 +42,10 @@ git clone https://github.com/openstreetmap/osm2pgsql.git
 cd ~/src/osm2pgsql
 mkdir build && cd build
 
-cmake ~/src/osm2pgsql
-cd build
+cmake ..
 make
- make install
+make install
+
 cd ~/src
 git clone https://github.com/openstreetmap/mod_tile.git
 cd mod_tile
@@ -59,17 +59,10 @@ make install
 make install-mod_tile
 ldconfig
 
-
-git clone https://github.com/gravitystorm/openstreetmap-carto.git
-wget -c $Raw_Database_URL
-
-exit
-
 fallocate -l 2G /swapfile
 chmod 600 /swapfile
 mkswap /swapfile
 swapon /swapfile
-
 
 cd /etc/ssh/
 
@@ -77,19 +70,22 @@ cat <<EOF >ssh_config
 ServerAliveInterval 60
 EOF
 
-cd -
+
+#cd -
+su $postgres_user <<EOF
+git clone https://github.com/gravitystorm/openstreetmap-carto.git
+wget -c $Raw_Database_URL
 cd openstreetmap-carto
-sudo -u $postgres_user osm2pgsql --slim -d gis -C 3600 --hstore -S openstreetmap-carto.style ../Punjab.pbf
-
+osm2pgsql --slim -d gis -C 3600 --hstore -S openstreetmap-carto.style ../Punjab.pbf
 python scripts/get-shapefiles.py
-
 touch style.xml
 chmod 777 style.xml
-
 carto project.mml > style.xml
-cd ..
+EOF
+
+cd $cwd
 chmod 777 conf_osm_16.04.sh 
-chod 777 web_map.sh
+chmod 777 web_map.sh
 source ./conf_osm_16.04.sh
 source ./web_map.sh
 exit
