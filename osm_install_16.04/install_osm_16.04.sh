@@ -60,10 +60,13 @@ make install
 make install-mod_tile
 ldconfig
 
+
 fallocate -l 2G /swapfile
 chmod 600 /swapfile
 mkswap /swapfile
 swapon /swapfile
+
+swapoff /swapfile && swapon /swapfile
 
 cd /etc/ssh/
 
@@ -78,7 +81,7 @@ cd /home/$postgres_user
 git clone https://github.com/gravitystorm/openstreetmap-carto.git
 wget -c $Raw_Database_URL
 cd openstreetmap-carto
-osm2pgsql --slim -d gis -C 3600 --hstore -S openstreetmap-carto.style $pbf_path
+osm2pgsql --slim -d gis -C $cache_memory --hstore -S openstreetmap-carto.style $pbf_path
 python scripts/get-shapefiles.py
 touch style.xml
 chmod 777 style.xml
