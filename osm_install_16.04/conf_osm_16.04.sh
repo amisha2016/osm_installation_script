@@ -22,7 +22,7 @@ font_dir_recurse=1
 URI=/osm_tiles/
 TILEDIR=/var/lib/mod_tile
 XML=$xml_style_path
-HOST=localhost 
+HOST=$ip_address
 TILESIZE=256
 MAXZOOM=20
 CORS=*
@@ -57,7 +57,8 @@ ln -s /etc/apache2/mods-available/mod_tile.load /etc/apache2/mods-enabled/
 
 cd  /etc/apache2/sites-enabled/
 
-sed -i 's|ServerAdmin webmaster@localhost|ServerAdmin webmaster@localhost\nLoadTileConfigFile /usr/local/etc/renderd.conf\nModTileRenderdSocketName /var/run/renderd/renderd.sock\n# Timeout before giving up for a tile to be rendered\nModTileRequestTimeout 0\n# Timeout before giving up for a tile to be rendered that is otherwise missing\nModTileMissingRequestTimeout 30|' 000-default.conf
+sed -i 's|ServerAdmin webmaster@localhost|ServerAdmin webmaster@localhost\nLoadTileConfigFile /usr/local/etc/renderd.conf\nModTileRenderdSocketName /var/run/renderd/renderd.sock\n# Timeout before giving up for a tile to be rendered\nModTileRequestTimeout 0\n# Timeout before giving up for a tile to be rendered that is otherwise missing\nModTileMissingRequestTimeout 30|' 000-default*.conf
+
 
 systemctl restart apache2
 
