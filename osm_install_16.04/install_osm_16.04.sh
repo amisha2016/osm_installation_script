@@ -20,6 +20,7 @@ pip install mapnik
 apt -y install postgresql postgresql-contrib postgis postgresql-9.5-postgis-2.2
 apt -y install npm nodejs-legacy
 npm install -g carto
+apt install osm2pgsql
 
 sudo -u postgres createuser $postgres_user
 sudo -u postgres createdb -E UTF8 -O $postgres_user $dbname
