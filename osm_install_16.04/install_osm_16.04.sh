@@ -82,7 +82,8 @@ cd /home/$postgres_user
 git clone https://github.com/gravitystorm/openstreetmap-carto.git
 wget -c $Raw_Database_URL
 cd openstreetmap-carto
-osm2pgsql --slim -d gis -C $cache_memory --hstore -S openstreetmap-carto.style $pbf_path
+sed -i 's|dbname: "gis"|dbname: "'$dbname'"|' project.mml
+osm2pgsql --slim -d $dbname -C $cache_memory --hstore -S openstreetmap-carto.style $pbf_path
 python scripts/get-shapefiles.py
 touch style.xml
 chmod 777 style.xml
