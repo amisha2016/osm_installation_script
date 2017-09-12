@@ -72,11 +72,12 @@ EOF
 
 
 #cd -
-su $postgres_user <<EOF
+echo "$postgres_user" | su $postgres_user <<EOF
+cd /home/$postgres_user
 git clone https://github.com/gravitystorm/openstreetmap-carto.git
 wget -c $Raw_Database_URL
 cd openstreetmap-carto
-osm2pgsql --slim -d gis -C 3600 --hstore -S openstreetmap-carto.style ../Punjab.pbf
+osm2pgsql --slim -d gis -C 3600 --hstore -S openstreetmap-carto.style $pbf_path
 python scripts/get-shapefiles.py
 touch style.xml
 chmod 777 style.xml
@@ -89,6 +90,7 @@ chmod 777 web_map.sh
 source ./conf_osm_16.04.sh
 source ./web_map.sh
 exit
+
 
 
 
