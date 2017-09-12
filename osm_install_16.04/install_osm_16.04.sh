@@ -25,6 +25,7 @@ sudo -u postgres createuser $postgres_user
 sudo -u postgres createdb -E UTF8 -O $postgres_user $dbname
 sudo -u postgres psql -d $dbname -v user_name=$postgres_user<< EOF
 CREATE EXTENSION postgis;
+CREATE EXTENSION hstore;
 ALTER TABLE geometry_columns OWNER TO :user_name;
 ALTER TABLE spatial_ref_sys OWNER TO :user_name;
 \q
@@ -70,7 +71,7 @@ cat <<EOF >ssh_config
 ServerAliveInterval 60
 EOF
 
-
+<<"COMMENT"
 #cd -
 echo "$postgres_user" | su $postgres_user <<EOF
 cd /home/$postgres_user
@@ -83,6 +84,7 @@ touch style.xml
 chmod 777 style.xml
 carto project.mml > style.xml
 EOF
+COMMENT
 
 cd $cwd
 chmod 777 conf_osm_16.04.sh 
