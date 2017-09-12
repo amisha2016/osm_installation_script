@@ -71,7 +71,7 @@ cat <<EOF >ssh_config
 ServerAliveInterval 60
 EOF
 
-<<"COMMENT"
+
 #cd -
 echo "$postgres_user" | su $postgres_user <<EOF
 cd /home/$postgres_user
@@ -84,7 +84,6 @@ touch style.xml
 chmod 777 style.xml
 carto project.mml > style.xml
 EOF
-COMMENT
 
 cd $sudo_user
 chmod 777 conf_osm_16.04.sh 
