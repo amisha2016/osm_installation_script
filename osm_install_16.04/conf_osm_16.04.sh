@@ -38,6 +38,7 @@ sed -i 's|DAEMON=.*|DAEMON=/usr/local/bin/$NAME|' renderd
 sed -i 's|DAEMON_ARGS=.*|DAEMON_ARGS="-c /usr/local/etc/renderd.conf"|' renderd
 sed -i 's|RUNASUSER=.*|RUNASUSER='$postgres_user'|' renderd
 
+
 mkdir -p /var/lib/mod_tile
 chown $postgres_user:$postgres_user /var/lib/mod_tile
 
@@ -59,6 +60,8 @@ cd  /etc/apache2/sites-enabled/
 
 sed -i 's|ServerAdmin webmaster@localhost|ServerAdmin webmaster@localhost\nLoadTileConfigFile /usr/local/etc/renderd.conf\nModTileRenderdSocketName /var/run/renderd/renderd.sock\n# Timeout before giving up for a tile to be rendered\nModTileRequestTimeout 0\n# Timeout before giving up for a tile to be rendered that is otherwise missing\nModTileMissingRequestTimeout 30|' 000-default*.conf
 
+service nginx stop
+/etc/init.d/renderd restart
 
 systemctl restart apache2
 
