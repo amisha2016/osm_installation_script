@@ -86,7 +86,7 @@ carto project.mml > style.xml
 EOF
 COMMENT
 
-cd $cwd
+cd $sudo_user
 chmod 777 conf_osm_16.04.sh 
 chmod 777 web_map.sh
 source ./conf_osm_16.04.sh
