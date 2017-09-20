@@ -99,8 +99,11 @@ EOF
 cd $sudo_user
 chmod 777 conf_osm_16.04.sh 
 chmod 777 web_map.sh
+chmod 777 virtual_host.sh
 source ./conf_osm_16.04.sh
+source ./virtual_host.sh
 source ./web_map.sh
+
 exit
 
 
