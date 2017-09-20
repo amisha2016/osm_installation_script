@@ -6,6 +6,7 @@ mkdir -p /home/$postgres_user/public_html
 chmod 711 /home
 chmod 711 /home/$postgres_user
 chmod 755 /home/$postgres_user/public_html
+chown -R $postgres_user:$postgres_user /home/$postgres_user/
 
 <<"COMMENT"
 var=$(awk '{for(i=1;i<=2;i++) if ($i=="ServerName") print $(i+1)}' /etc/apache2/sites-available/000-default*.conf)

@@ -3,13 +3,16 @@ source ./install.conf
 <<"COMMENT"
 OSM Configuration Script
 COMMENT
+
+mkdir -p /home/$postgres_user/public_html/store_tiles
+chown -R $postgres_user:$postgres_user /home/$postgres_user/public_html/store_tiles
 cd /usr/local/etc/
 
 cat <<EOF >renderd.conf
 [renderd]
 socketname=/var/run/renderd/renderd.sock
 num_threads=4
-tile_dir=/var/lib/mod_tile
+tile_dir=$tile_stor_dir
 stats_file=/var/run/renderd/renderd.stats
 
 [mapnik]
@@ -19,8 +22,8 @@ font_dir=/usr/share/fonts/truetype/
 font_dir_recurse=1
 
 [default]
-URI=/osm_tiles/
-TILEDIR=/var/lib/mod_tile
+URI=/~$postgres_user/osm_tiles/
+TILEDIR=$tile_stor_dir
 XML=$xml_style_path
 HOST=$domain_name
 TILESIZE=256

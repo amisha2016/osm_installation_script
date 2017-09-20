@@ -1,0 +1,532 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+autoconf is already the newest version (2.69-9).
+build-essential is already the newest version (12.1ubuntu2).
+bzip2 is already the newest version (1.0.6-8).
+libbz2-dev is already the newest version (1.0.6-8).
+libcairo2-dev is already the newest version (1.14.6-1).
+libcairomm-1.0-dev is already the newest version (1.12.0-1).
+liblua5.1-0-dev is already the newest version (5.1.5-8ubuntu1).
+liblua5.2-dev is already the newest version (5.2.4-1ubuntu1).
+libpng12-dev is already the newest version (1.2.54-1ubuntu1).
+libtool is already the newest version (2.4.6-0.1).
+ttf-unifont is already the newest version (1:8.0.01-1).
+unzip is already the newest version (6.0-20ubuntu1).
+libagg-dev is already the newest version (2.5+dfsg1-9).
+libboost-all-dev is already the newest version (1.58.0.1ubuntu1).
+libgdal-dev is already the newest version (1.11.3+dfsg-3build2).
+libgeos++-dev is already the newest version (3.5.0-1ubuntu2).
+libgeos-dev is already the newest version (3.5.0-1ubuntu2).
+libproj-dev is already the newest version (4.9.2-2).
+libprotobuf-c-dev is already the newest version (1.2.1-1).
+lua5.1 is already the newest version (5.1.5-8ubuntu1).
+node-carto is already the newest version (0.9.5-2).
+protobuf-c-compiler is already the newest version (1.2.1-1).
+libgeotiff-epsg is already the newest version (1.4.1-2).
+apache2 is already the newest version (2.4.18-2ubuntu3.4).
+apache2-dev is already the newest version (2.4.18-2ubuntu3.4).
+git-core is already the newest version (1:2.7.4-0ubuntu1.2).
+libfreetype6-dev is already the newest version (2.6.1-0.1ubuntu2.3).
+libicu-dev is already the newest version (55.1-7ubuntu0.2).
+libpq-dev is already the newest version (9.5.8-0ubuntu0.16.04.1).
+libtiff5-dev is already the newest version (4.0.6-1ubuntu0.2).
+libxml2-dev is already the newest version (2.9.3+dfsg1-1ubuntu0.2).
+subversion is already the newest version (1.9.3-2ubuntu1.1).
+tar is already the newest version (1.28-2.1ubuntu0.1).
+wget is already the newest version (1.17.1-1ubuntu1.2).
+munin is already the newest version (2.0.25-2ubuntu0.16.04.3).
+munin-node is already the newest version (2.0.25-2ubuntu0.16.04.3).
+The following packages were automatically installed and are no longer required:
+  linux-headers-4.4.0-83 linux-headers-4.4.0-83-generic linux-headers-4.4.0-87
+  linux-headers-4.4.0-87-generic linux-headers-4.4.0-89
+  linux-headers-4.4.0-89-generic linux-headers-4.4.0-91
+  linux-headers-4.4.0-91-generic linux-image-4.4.0-83-generic
+  linux-image-4.4.0-87-generic linux-image-4.4.0-89-generic
+  linux-image-4.4.0-91-generic
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+g++ is already the newest version (4:5.3.1-1ubuntu1).
+libboost-dev is already the newest version (1.58.0.1ubuntu1).
+libbz2-dev is already the newest version (1.0.6-8).
+liblua5.2-dev is already the newest version (5.2.4-1ubuntu1).
+lua5.2 is already the newest version (5.2.4-1ubuntu1).
+make is already the newest version (4.1-6).
+libboost-filesystem-dev is already the newest version (1.58.0.1ubuntu1).
+libboost-system-dev is already the newest version (1.58.0.1ubuntu1).
+libgeos++-dev is already the newest version (3.5.0-1ubuntu2).
+libgeos-dev is already the newest version (3.5.0-1ubuntu2).
+libproj-dev is already the newest version (4.9.2-2).
+cmake is already the newest version (3.5.1-1ubuntu3).
+libexpat1-dev is already the newest version (2.1.0-7ubuntu0.16.04.3).
+libpq-dev is already the newest version (9.5.8-0ubuntu0.16.04.1).
+zlib1g-dev is already the newest version (1:1.2.8.dfsg-2ubuntu4.1).
+The following packages were automatically installed and are no longer required:
+  linux-headers-4.4.0-83 linux-headers-4.4.0-83-generic linux-headers-4.4.0-87
+  linux-headers-4.4.0-87-generic linux-headers-4.4.0-89
+  linux-headers-4.4.0-89-generic linux-headers-4.4.0-91
+  linux-headers-4.4.0-91-generic linux-image-4.4.0-83-generic
+  linux-image-4.4.0-87-generic linux-image-4.4.0-89-generic
+  linux-image-4.4.0-91-generic
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+libmapnik-dev is already the newest version (3.0.9+ds-1).
+libmapnik3.0 is already the newest version (3.0.9+ds-1).
+mapnik-utils is already the newest version (3.0.9+ds-1).
+mapnik-vector-tile is already the newest version (0.14.3+dfsg-1).
+python-mapnik is already the newest version (1:0.0~20151125-92e79d2-1build1).
+python3-mapnik is already the newest version (1:0.0~20151125-92e79d2-1build1).
+The following packages were automatically installed and are no longer required:
+  linux-headers-4.4.0-83 linux-headers-4.4.0-83-generic linux-headers-4.4.0-87
+  linux-headers-4.4.0-87-generic linux-headers-4.4.0-89
+  linux-headers-4.4.0-89-generic linux-headers-4.4.0-91
+  linux-headers-4.4.0-91-generic linux-image-4.4.0-83-generic
+  linux-image-4.4.0-87-generic linux-image-4.4.0-89-generic
+  linux-image-4.4.0-91-generic
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+cmake is already the newest version (3.5.1-1ubuntu3).
+The following packages were automatically installed and are no longer required:
+  linux-headers-4.4.0-83 linux-headers-4.4.0-83-generic linux-headers-4.4.0-87
+  linux-headers-4.4.0-87-generic linux-headers-4.4.0-89
+  linux-headers-4.4.0-89-generic linux-headers-4.4.0-91
+  linux-headers-4.4.0-91-generic linux-image-4.4.0-83-generic
+  linux-image-4.4.0-87-generic linux-image-4.4.0-89-generic
+  linux-image-4.4.0-91-generic
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python-pip is already the newest version (8.1.1-2ubuntu0.4).
+The following packages were automatically installed and are no longer required:
+  linux-headers-4.4.0-83 linux-headers-4.4.0-83-generic linux-headers-4.4.0-87
+  linux-headers-4.4.0-87-generic linux-headers-4.4.0-89
+  linux-headers-4.4.0-89-generic linux-headers-4.4.0-91
+  linux-headers-4.4.0-91-generic linux-image-4.4.0-83-generic
+  linux-image-4.4.0-87-generic linux-image-4.4.0-89-generic
+  linux-image-4.4.0-91-generic
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+Requirement already satisfied: mapnik in /usr/lib/python2.7/dist-packages
+Reading package lists...
+Building dependency tree...
+Reading state information...
+postgresql is already the newest version (9.5+173).
+postgresql-contrib is already the newest version (9.5+173).
+postgis is already the newest version (2.2.1+dfsg-2).
+postgresql-9.5-postgis-2.2 is already the newest version (2.2.1+dfsg-2).
+The following packages were automatically installed and are no longer required:
+  linux-headers-4.4.0-83 linux-headers-4.4.0-83-generic linux-headers-4.4.0-87
+  linux-headers-4.4.0-87-generic linux-headers-4.4.0-89
+  linux-headers-4.4.0-89-generic linux-headers-4.4.0-91
+  linux-headers-4.4.0-91-generic linux-image-4.4.0-83-generic
+  linux-image-4.4.0-87-generic linux-image-4.4.0-89-generic
+  linux-image-4.4.0-91-generic
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+npm is already the newest version (3.5.2-0ubuntu4).
+nodejs-legacy is already the newest version (4.2.6~dfsg-1ubuntu4.1).
+The following packages were automatically installed and are no longer required:
+  linux-headers-4.4.0-83 linux-headers-4.4.0-83-generic linux-headers-4.4.0-87
+  linux-headers-4.4.0-87-generic linux-headers-4.4.0-89
+  linux-headers-4.4.0-89-generic linux-headers-4.4.0-91
+  linux-headers-4.4.0-91-generic linux-image-4.4.0-83-generic
+  linux-image-4.4.0-87-generic linux-image-4.4.0-89-generic
+  linux-image-4.4.0-91-generic
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 1 not upgraded.
+/usr/local/bin/carto -> /usr/local/lib/node_modules/carto/bin/carto
+/usr/local/lib
+└── carto@0.18.2 
+
+ALTER TABLE
+ALTER TABLE
+libtoolize: putting auxiliary files in '.'.
+libtoolize: copying file './ltmain.sh'
+libtoolize: putting macros in AC_CONFIG_MACRO_DIRS, 'm4'.
+libtoolize: copying file 'm4/libtool.m4'
+libtoolize: copying file 'm4/ltoptions.m4'
+libtoolize: copying file 'm4/ltsugar.m4'
+libtoolize: copying file 'm4/ltversion.m4'
+libtoolize: copying file 'm4/lt~obsolete.m4'
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking how to print strings... printf
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking for gcc option to accept ISO C99... none needed
+checking for g++... yes
+checking arpa/inet.h usability... yes
+checking arpa/inet.h presence... yes
+checking for arpa/inet.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking for stdint.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking syslog.h usability... yes
+checking syslog.h presence... yes
+checking for syslog.h... yes
+checking for unistd.h... (cached) yes
+checking utime.h usability... yes
+checking utime.h presence... yes
+checking for utime.h... yes
+checking paths.h usability... yes
+checking paths.h presence... yes
+checking for paths.h... yes
+checking sys/cdefs.h usability... yes
+checking sys/cdefs.h presence... yes
+checking for sys/cdefs.h... yes
+checking sys/loadavg.h usability... no
+checking sys/loadavg.h presence... no
+checking for sys/loadavg.h... no
+checking for inline... inline
+checking for mode_t... yes
+checking for size_t... yes
+checking for uint16_t... yes
+checking for uint32_t... yes
+checking for uint64_t... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for sys/time.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for alarm... yes
+checking for working mktime... yes
+checking for the pthreads library -lpthreads... no
+checking whether pthreads work without any flags... no
+checking whether pthreads work with -Kthread... no
+checking whether pthreads work with -kthread... no
+checking for the pthreads library -llthread... no
+checking whether pthreads work with -pthread... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking if more special flags are required for pthreads... no
+checking for library containing socket... none required
+checking for library containing inet_ntoa... none required
+checking for library containing gethostbyname... none required
+checking for library containing pow... -lm
+checking for library containing clock_gettime... none required
+checking for mapnik-config... /usr/bin/mapnik-config
+checking for mapnik libraries... yes
+checking libmemcached-1.0/memcached.h usability... no
+checking libmemcached-1.0/memcached.h presence... no
+checking for libmemcached-1.0/memcached.h... no
+checking for gawk... (cached) gawk
+checking for curl-config... /usr/bin/curl-config
+checking for the version of libcurl... 7.47.0
+checking whether libcurl is usable... yes
+checking for curl_free... yes
+checking for rados_version in -lrados... no
+checking for bzero... yes
+checking for gethostbyname... yes
+checking for gettimeofday... yes
+checking for inet_ntoa... yes
+checking for memset... yes
+checking for mkdir... yes
+checking for pow... yes
+checking for select... yes
+checking for socket... yes
+checking for strchr... yes
+checking for strdup... yes
+checking for strerror... yes
+checking for strrchr... yes
+checking for strstr... yes
+checking for strtol... yes
+checking for strtoul... yes
+checking for utime... yes
+checking for daemon... yes
+checking for getloadavg... yes
+checking for apxs... apxs
+checking for library containing iniparser_load... -liniparser
+checking iniparser.h usability... no
+checking iniparser.h presence... no
+checking for iniparser.h... no
+configure: Building iniparser
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating iniparser3.0b/Makefile
+config.status: creating Makefile
+config.status: creating includes/config.h
+config.status: includes/config.h is unchanged
+config.status: executing depfiles commands
+config.status: executing libtool commands
+Making all in iniparser3.0b
+make[1]: Entering directory '/home/gurnoor/src/mod_tile/iniparser3.0b'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/gurnoor/src/mod_tile/iniparser3.0b'
+make[1]: Entering directory '/home/gurnoor/src/mod_tile'
+apxs -c   -I./includes    -L/usr/lib/x86_64-linux-gnu -lcurl ./src/mod_tile.c  ./src/sys_utils.c ./src/store.c ./src/store_file.c ./src/store_file_utils.c ./src/store_memcached.c ./src/store_rados.c ./src/store_ro_http_proxy.c ./src/store_ro_composite.c ./src/store_null.c
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/mod_tile.c  -fPIC -DPIC -o ./src/.libs/mod_tile.o
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/sys_utils.c  -fPIC -DPIC -o ./src/.libs/sys_utils.o
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/store.c  -fPIC -DPIC -o ./src/.libs/store.o
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/store_file.c  -fPIC -DPIC -o ./src/.libs/store_file.o
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/store_file_utils.c  -fPIC -DPIC -o ./src/.libs/store_file_utils.o
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/store_memcached.c  -fPIC -DPIC -o ./src/.libs/store_memcached.o
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/store_rados.c  -fPIC -DPIC -o ./src/.libs/store_rados.o
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/store_ro_http_proxy.c  -fPIC -DPIC -o ./src/.libs/store_ro_http_proxy.o
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/store_ro_composite.c  -fPIC -DPIC -o ./src/.libs/store_ro_composite.o
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/store_null.c  -fPIC -DPIC -o ./src/.libs/store_null.o
+libtool: link: rm -fr  ./src/.libs/mod_tile.la ./src/.libs/mod_tile.lai ./src/.libs/mod_tile.so
+libtool: link: x86_64-linux-gnu-gcc -shared  -fPIC -DPIC  ./src/.libs/store_null.o ./src/.libs/store_ro_composite.o ./src/.libs/store_ro_http_proxy.o ./src/.libs/store_rados.o ./src/.libs/store_memcached.o ./src/.libs/store_file_utils.o ./src/.libs/store_file.o ./src/.libs/store.o ./src/.libs/sys_utils.o ./src/.libs/mod_tile.o   -L/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libcurl-gnutls.so  -Wl,--as-needed -Wl,-Bsymbolic-functions -Wl,-z -Wl,relro -Wl,-z -Wl,now   -pthread -Wl,-soname -Wl,mod_tile.so -o ./src/.libs/mod_tile.so
+libtool: link: ( cd "./src/.libs" && rm -f "mod_tile.la" && ln -s "../mod_tile.la" "mod_tile.la" )
+make[1]: Leaving directory '/home/gurnoor/src/mod_tile'
+Making install in iniparser3.0b
+make[1]: Entering directory '/home/gurnoor/src/mod_tile/iniparser3.0b'
+make[2]: Entering directory '/home/gurnoor/src/mod_tile/iniparser3.0b'
+ /bin/mkdir -p '/usr/local/lib'
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libiniparser.la '/usr/local/lib'
+libtool: install: /usr/bin/install -c .libs/libiniparser.so.3.0.0 /usr/local/lib/libiniparser.so.3.0.0
+libtool: install: (cd /usr/local/lib && { ln -s -f libiniparser.so.3.0.0 libiniparser.so.3 || { rm -f libiniparser.so.3 && ln -s libiniparser.so.3.0.0 libiniparser.so.3; }; })
+libtool: install: (cd /usr/local/lib && { ln -s -f libiniparser.so.3.0.0 libiniparser.so || { rm -f libiniparser.so && ln -s libiniparser.so.3.0.0 libiniparser.so; }; })
+libtool: install: /usr/bin/install -c .libs/libiniparser.lai /usr/local/lib/libiniparser.la
+libtool: install: /usr/bin/install -c .libs/libiniparser.a /usr/local/lib/libiniparser.a
+libtool: install: chmod 644 /usr/local/lib/libiniparser.a
+libtool: install: ranlib /usr/local/lib/libiniparser.a
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/local/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/home/gurnoor/src/mod_tile/iniparser3.0b'
+make[1]: Leaving directory '/home/gurnoor/src/mod_tile/iniparser3.0b'
+make[1]: Entering directory '/home/gurnoor/src/mod_tile'
+apxs -c   -I./includes    -L/usr/lib/x86_64-linux-gnu -lcurl ./src/mod_tile.c  ./src/sys_utils.c ./src/store.c ./src/store_file.c ./src/store_file_utils.c ./src/store_memcached.c ./src/store_rados.c ./src/store_ro_http_proxy.c ./src/store_ro_composite.c ./src/store_null.c
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/mod_tile.c  -fPIC -DPIC -o ./src/.libs/mod_tile.o
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/sys_utils.c  -fPIC -DPIC -o ./src/.libs/sys_utils.o
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/store.c  -fPIC -DPIC -o ./src/.libs/store.o
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/store_file.c  -fPIC -DPIC -o ./src/.libs/store_file.o
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/store_file_utils.c  -fPIC -DPIC -o ./src/.libs/store_file_utils.o
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/store_memcached.c  -fPIC -DPIC -o ./src/.libs/store_memcached.o
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/store_rados.c  -fPIC -DPIC -o ./src/.libs/store_rados.o
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/store_ro_http_proxy.c  -fPIC -DPIC -o ./src/.libs/store_ro_http_proxy.o
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/store_ro_composite.c  -fPIC -DPIC -o ./src/.libs/store_ro_composite.o
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/store_null.c  -fPIC -DPIC -o ./src/.libs/store_null.o
+libtool: link: rm -fr  ./src/.libs/mod_tile.la ./src/.libs/mod_tile.lai ./src/.libs/mod_tile.so
+libtool: link: x86_64-linux-gnu-gcc -shared  -fPIC -DPIC  ./src/.libs/store_null.o ./src/.libs/store_ro_composite.o ./src/.libs/store_ro_http_proxy.o ./src/.libs/store_rados.o ./src/.libs/store_memcached.o ./src/.libs/store_file_utils.o ./src/.libs/store_file.o ./src/.libs/store.o ./src/.libs/sys_utils.o ./src/.libs/mod_tile.o   -L/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libcurl-gnutls.so  -Wl,--as-needed -Wl,-Bsymbolic-functions -Wl,-z -Wl,relro -Wl,-z -Wl,now   -pthread -Wl,-soname -Wl,mod_tile.so -o ./src/.libs/mod_tile.so
+libtool: link: ( cd "./src/.libs" && rm -f "mod_tile.la" && ln -s "../mod_tile.la" "mod_tile.la" )
+make[2]: Entering directory '/home/gurnoor/src/mod_tile'
+ /bin/mkdir -p '/usr/local/bin'
+  /bin/bash ./libtool   --mode=install /usr/bin/install -c renderd render_expired render_list render_speedtest render_old '/usr/local/bin'
+libtool: install: /usr/bin/install -c .libs/renderd /usr/local/bin/renderd
+libtool: install: /usr/bin/install -c render_expired /usr/local/bin/render_expired
+libtool: install: /usr/bin/install -c render_list /usr/local/bin/render_list
+libtool: install: /usr/bin/install -c render_speedtest /usr/local/bin/render_speedtest
+libtool: install: /usr/bin/install -c render_old /usr/local/bin/render_old
+ /bin/mkdir -p '/usr/local/share/man/man1'
+ /usr/bin/install -c -m 644 docs/render_expired.1 docs/render_list.1 docs/render_old.1 docs/render_speedtest.1 '/usr/local/share/man/man1'
+ /bin/mkdir -p '/usr/local/share/man/man8'
+ /usr/bin/install -c -m 644 docs/renderd.8 '/usr/local/share/man/man8'
+ /bin/mkdir -p '/usr/local/etc'
+ /usr/bin/install -c -m 644 renderd.conf '/usr/local/etc'
+make[2]: Leaving directory '/home/gurnoor/src/mod_tile'
+make[1]: Leaving directory '/home/gurnoor/src/mod_tile'
+mkdir -p `apxs -q LIBEXECDIR`
+apxs -S LIBEXECDIR=`apxs -q LIBEXECDIR` -c -i   -I./includes    -L/usr/lib/x86_64-linux-gnu -lcurl ./src/mod_tile.c ./src/sys_utils.c ./src/store.c ./src/store_file.c ./src/store_file_utils.c ./src/store_memcached.c ./src/store_rados.c ./src/store_ro_http_proxy.c ./src/store_ro_composite.c ./src/store_null.c
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/mod_tile.c  -fPIC -DPIC -o ./src/.libs/mod_tile.o
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/sys_utils.c  -fPIC -DPIC -o ./src/.libs/sys_utils.o
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/store.c  -fPIC -DPIC -o ./src/.libs/store.o
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/store_file.c  -fPIC -DPIC -o ./src/.libs/store_file.o
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/store_file_utils.c  -fPIC -DPIC -o ./src/.libs/store_file_utils.o
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/store_memcached.c  -fPIC -DPIC -o ./src/.libs/store_memcached.o
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/store_rados.c  -fPIC -DPIC -o ./src/.libs/store_rados.o
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/store_ro_http_proxy.c  -fPIC -DPIC -o ./src/.libs/store_ro_http_proxy.o
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/store_ro_composite.c  -fPIC -DPIC -o ./src/.libs/store_ro_composite.o
+libtool: compile:  x86_64-linux-gnu-gcc -pipe -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -DBUILD_DATETIME=\"2017-07-27T14:34:01\" -Wdate-time -D_FORTIFY_SOURCE=2 -DLINUX -D_REENTRANT -D_GNU_SOURCE -pthread -I/usr/include/apache2 -I/usr/include/apr-1.0 -I/usr/include/apr-1.0 -I/usr/include -I./includes -c ./src/store_null.c  -fPIC -DPIC -o ./src/.libs/store_null.o
+libtool: link: rm -fr  ./src/.libs/mod_tile.la ./src/.libs/mod_tile.lai ./src/.libs/mod_tile.so
+libtool: link: x86_64-linux-gnu-gcc -shared  -fPIC -DPIC  ./src/.libs/store_null.o ./src/.libs/store_ro_composite.o ./src/.libs/store_ro_http_proxy.o ./src/.libs/store_rados.o ./src/.libs/store_memcached.o ./src/.libs/store_file_utils.o ./src/.libs/store_file.o ./src/.libs/store.o ./src/.libs/sys_utils.o ./src/.libs/mod_tile.o   -L/usr/lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu/libcurl-gnutls.so  -Wl,--as-needed -Wl,-Bsymbolic-functions -Wl,-z -Wl,relro -Wl,-z -Wl,now   -pthread -Wl,-soname -Wl,mod_tile.so -o ./src/.libs/mod_tile.so
+libtool: link: ( cd "./src/.libs" && rm -f "mod_tile.la" && ln -s "../mod_tile.la" "mod_tile.la" )
+/usr/share/apr-1.0/build/libtool --mode=install install ./src/mod_tile.la /usr/lib/apache2/modules/
+libtool: install: install ./src/.libs/mod_tile.so /usr/lib/apache2/modules/mod_tile.so
+libtool: install: install ./src/.libs/mod_tile.lai /usr/lib/apache2/modules/mod_tile.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/apache2/modules
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/apache2/modules
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+Setting up swapspace version 1, size = 2 GiB (2147479552 bytes)
+no label, UUID=ed826139-9a27-4000-a66f-b782650c945a
+
+Starting get-shapefiles.py...
+1-1. Downloading 'world_boundaries'...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+     No newer file to download.
+2-1. Downloading 'simplified-land-polygons-complete-3857'...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+     No newer file to download.
+3-1. Downloading 'ne_110m_admin_0_boundary_lines_land'...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+     No newer file to download.
+4-1. Downloading 'land-polygons-split-3857'...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+     No newer file to download.
+5-1. Downloading 'antarctica-icesheet-polygons-3857'...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+     No newer file to download.
+6-1. Downloading 'antarctica-icesheet-outlines-3857'...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+     No newer file to download.
+...script completed in 3.9 seconds.
+
