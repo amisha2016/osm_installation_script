@@ -79,6 +79,12 @@ EOF
 #cd -
 echo "$postgres_user" | su $postgres_user <<EOF
 cd /home/$postgres_user
+
+mkdir -p /home/$postgres_user/public_html
+chmod 711 /home
+chmod 711 /home/$postgres_user
+chmod 755 /home/$postgres_user/public_html
+cd public_html
 git clone https://github.com/gravitystorm/openstreetmap-carto.git
 wget -c $Raw_Database_URL
 cd openstreetmap-carto

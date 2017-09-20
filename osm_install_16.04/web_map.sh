@@ -3,15 +3,19 @@ source ./install.conf
 mkdir $web_folder
 cd $web_folder
 wget -c $ol_css_url
-unzip v4.3.2-dist.zip
+
+unzip $zip_dir
+
 #wget -c $ol_js_url
 cat <<EOF >index.html
 <!DOCTYPE html>
 <html>
 <head>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
 <title>Accessible Map</title>
-<link rel="stylesheet" href="v4.3.2-dist/ol.css" type="text/css">
-<script src="v4.3.2-dist/ol.js"></script>
+<link rel="stylesheet" href="$js_lib/ol.css" type="text/css">
+<script src="$js_lib/ol.js"></script>
 <style>
   a.skiplink {
     position: absolute;
