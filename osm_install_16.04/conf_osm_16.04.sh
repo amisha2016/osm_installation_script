@@ -68,4 +68,3 @@ service nginx stop
 
 systemctl restart apache2
 
-exit

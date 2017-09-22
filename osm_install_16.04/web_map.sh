@@ -81,4 +81,3 @@ cat <<EOF >index.html
 </html>
 EOF
 
-exit

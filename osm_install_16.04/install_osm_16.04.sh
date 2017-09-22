@@ -3,7 +3,7 @@ source ./install.conf
 <<"COMMENT"
 OSM Installation Script
 COMMENT
-
+<<"COMMENT"
 apt -y install libboost-all-dev subversion git-core tar unzip wget bzip2 build-essential autoconf libtool libxml2-dev libgeos-dev libgeos++-dev libpq-dev libbz2-dev libproj-dev munin-node munin libprotobuf-c0-dev protobuf-c-compiler libfreetype6-dev libpng12-dev libtiff5-dev libicu-dev libgdal-dev libcairo-dev libcairomm-1.0-dev apache2 apache2-dev libagg-dev liblua5.2-dev ttf-unifont lua5.1 liblua5.1-dev libgeotiff-epsg node-carto
 
 apt -y install make cmake g++ libboost-dev libboost-system-dev \
@@ -95,13 +95,16 @@ touch style.xml
 chmod 777 style.xml
 carto project.mml > style.xml
 EOF
-
+COMMENT
 cd $sudo_user
 chmod 777 conf_osm_16.04.sh 
 chmod 777 web_map.sh
 chmod 777 virtual_host.sh
 source ./conf_osm_16.04.sh
+cd $sudo_user
+pwd
 source ./virtual_host.sh
+cd $sudo_user
 source ./web_map.sh
 
 exit
