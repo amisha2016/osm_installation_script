@@ -1,6 +1,7 @@
 #!/bin/bash
 source ./install.conf
-mkdir $web_folder
+mkdir -p $web_folder
+chown -R $postgres_user:$postgres_user /home/$postgres_user/public_html/ 
 cd $web_folder
 wget -c $ol_css_url
 
