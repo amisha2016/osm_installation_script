@@ -86,4 +86,4 @@ cat $postgres_user_hosts.txt >> hosts
 service apache2 restart
 
 COMMENT
-
+exit
